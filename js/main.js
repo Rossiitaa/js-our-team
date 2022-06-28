@@ -30,3 +30,7 @@ const memberTeam = [
         img : 'barbara-ramos-graphic-designer.jpg'
     },
 ] 
+
+for (key in memberTeam) {
+    console.log(`${memberTeam[key].name}, ${memberTeam[key].role}, ${memberTeam[key].img}`);
+}
