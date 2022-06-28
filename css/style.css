@@ -1,0 +1,10 @@
+body {
+    background-color: azure;
+}
+
+.member {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
