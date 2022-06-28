@@ -1,15 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: azure;
 }
 
-.member {
-    background-color: lightblue;
-    border: 1px solid black;
+h1 {
+    font-size: 50px;
+    text-align: center;
     padding: 10px;
-    margin: 0 auto;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-}
+

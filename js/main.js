@@ -6,7 +6,7 @@ const memberTeam = [
     },
     {
         name : 'Angela Caroll',
-        ruole : 'Chief Editor',
+        role : 'Chief Editor',
         img : 'angela-caroll-chief-editor.jpg'
     },
     {
@@ -36,6 +36,12 @@ let contentId = document.getElementById('content');
 for (key in memberTeam) {
     console.log(`${memberTeam[key].name}, ${memberTeam[key].role}, ${memberTeam[key].img}`);
     contentId.innerHTML += `
-    ${memberTeam[key].name}, ${memberTeam[key].role}, <img src="./img/${memberTeam[key].img}"></img>
+    <div class="card m-3">
+        <img class="card-img-top" src="./img/${memberTeam[key].img}"></img>
+    
+    <div class="card-body">
+    <h5 class="card-title">${memberTeam[key].name}, ${memberTeam[key].role}</h5>
+    </div>
+    </div>
     `;
 }
