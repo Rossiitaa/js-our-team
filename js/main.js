@@ -36,6 +36,6 @@ let contentId = document.getElementById('content');
 for (key in memberTeam) {
     console.log(`${memberTeam[key].name}, ${memberTeam[key].role}, ${memberTeam[key].img}`);
     contentId.innerHTML += `
-    ${memberTeam[key].name}, ${memberTeam[key].role}, ${memberTeam[key].img}
+    ${memberTeam[key].name}, ${memberTeam[key].role}, <img src="./img/${memberTeam[key].img}"></img>
     `;
 }
